@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mobile_Lab_3</string>
+    <string name="action_settings">Settings</string>
+    <string name="Add_New">Add New Conversation</string>
+    <string name="edit">Edit Conversation</string>
+    <string name="delete">Delete Conversation</string>
+
+    <string name="english">English</string>
+    <string name="korean">Korean</string>
+    <string name="save">Save Conversation</string>
+    <string name="deleteConversation">Are you sure you want to Delete Conversation</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="hint">Tap on mic to start</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_speak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:text="speak!" />
+
+    <TextView
+        android:id="@+id/tv_eng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_speak"
+        android:layout_marginEnd="11dp"
+        android:layout_toStartOf="@+id/btn_save"
+        android:text="ENGLISH"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ed_eng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_eng"
+        android:layout_below="@+id/tv_eng"
+        android:layout_marginStart="41dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tv_kor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed_eng"
+        android:layout_alignStart="@+id/tv_eng"
+        android:text="KOREAN"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ed_kor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ed_eng"
+        android:layout_below="@+id/tv_kor"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed_kor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:onClick="run"
+        android:text="save" />
+</RelativeLayout>

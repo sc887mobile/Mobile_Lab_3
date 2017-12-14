@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="project.sarah.mobile_lab_3.MainActivity" >
+
+    <item
+        android:id="@+id/Add"
+        android:orderInCategory="100"
+        android:title="@string/Add_New"
+        app:showAsAction="always" />
+
+</menu>
